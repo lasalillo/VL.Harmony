@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Qz3FyJRbm4JOOUJPfVVRlQ" LanguageVersion="2024.6.0-0173-g0fa37470f9" Version="0.128">
-  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="2024.6.0-0173-g0fa37470f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Qz3FyJRbm4JOOUJPfVVRlQ" LanguageVersion="2024.6.7-0003-gda7bfe6f68" Version="0.128">
+  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="2024.6.7-0003-gda7bfe6f68" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
     <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="Harmony" CanvasType="FullCategory">
       <!--
@@ -6241,7 +6241,7 @@
                       </Node>
                     </Patch>
                   </Node>
-                  <Node Bounds="611,1214,70,26" Id="L3NR1OOAv4VPQtRyyekdnG">
+                  <Node Bounds="611,1214,70,19" Id="L3NR1OOAv4VPQtRyyekdnG">
                     <p:NodeReference LastCategoryFullName="Primitive.Tuple (2 Items)" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="RecordType" Name="Tuple (2 Items)" />
@@ -6314,7 +6314,7 @@
                 <Pin Id="HxkB3JCabB1LaFFGy3BSfc" Name="Value" Kind="OutputPin" />
                 <Pin Id="RfeHw9bJRTcLZY5GwyEp9I" Name="On Data" Kind="OutputPin" />
               </Node>
-              <Node Bounds="583,1475,70,26" Id="Nu30tDh2CELOsMgczED5fE">
+              <Node Bounds="583,1475,70,19" Id="Nu30tDh2CELOsMgczED5fE">
                 <p:NodeReference LastCategoryFullName="Primitive.Tuple (2 Items)" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="Tuple (2 Items)" />
@@ -11106,6 +11106,7 @@
                     <Pin Id="QRRcSlcw37IMPkDM8VS5Qj" Name="Reset" Kind="InputPin" />
                     <Pin Id="J5BqE2dFDuxPY7ytCFvwQ4" Name="Value" Kind="OutputPin" />
                     <Pin Id="PQKsKZqA9uqPXH2KmkAHQ9" Name="Inverse Output" Kind="OutputPin" />
+                    <Pin Id="DDTRwgYjMlyOynLDgwpkoq" Name="Current Frame" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="956,345,30,19" Id="H68IeCSjIcUMHsIsPl43iu">
                     <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
@@ -11332,6 +11333,7 @@
                 <Pin Id="Bn83au9pVyTQMhRwHF3nWt" Name="Reset" Kind="InputPin" />
                 <Pin Id="BSAMT0bbTYaPpWldhTnGLm" Name="Value" Kind="OutputPin" />
                 <Pin Id="FcsCZozrQtEMCyLEcW8Dao" Name="Inverse Output" Kind="OutputPin" />
+                <Pin Id="EWv5j4JYpfOLip2YvPUQe1" Name="Current Frame" Kind="OutputPin" />
               </Node>
               <Node Bounds="517,294,30,19" Id="KD1q6tA7IIwNx7H3n6dX40">
                 <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
@@ -11408,6 +11410,7 @@
                 <Pin Id="HCnWCbhbmiePKzkPk6ZxUW" Name="Reset" Kind="InputPin" />
                 <Pin Id="QdYdpQPqgFxP8xSZkMgD6S" Name="Value" Kind="OutputPin" />
                 <Pin Id="PayJaDrQNymMjEi4UCPgSW" Name="Inverse Output" Kind="OutputPin" />
+                <Pin Id="Ak9Y2WXS3gPOzfYg7qViIX" Name="Current Frame" Kind="OutputPin" />
               </Node>
               <Node Bounds="581,244,56,19" Id="GgF81xXg5DTMEqaqjRRubJ">
                 <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
@@ -11658,6 +11661,7 @@
                 <Pin Id="T91ogSAnYeeOGRJYhRgkTv" Name="Reset" Kind="InputPin" />
                 <Pin Id="MDwjANQ3GYyLY072EzqvrT" Name="Value" Kind="OutputPin" />
                 <Pin Id="LQjoa4go0l8PgvzdPCFey5" Name="Inverse Output" Kind="OutputPin" />
+                <Pin Id="MB5Wp4nSTHwOAh8BHeNtND" Name="Current Frame" Kind="OutputPin" />
               </Node>
               <Node Bounds="537,295,30,19" Id="BXyYFZbbJVPOlKJCsBWjIQ">
                 <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
@@ -11905,6 +11909,7 @@
                     <Pin Id="O2t51HVrKysMnMrMAspx8E" Name="Reset" Kind="InputPin" />
                     <Pin Id="OlnsniN6AT0QCRrsEB4o8K" Name="Value" Kind="OutputPin" />
                     <Pin Id="RXTA1mjbmojPohyuZ4VBDw" Name="Inverse Output" Kind="OutputPin" />
+                    <Pin Id="Fw203KDBGKiNjeKfDBchbp" Name="Current Frame" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -12389,6 +12394,7 @@
               <Pin Id="Qkuo5XI5o8IO1mGzdnrldV" Name="Reset" Kind="InputPin" />
               <Pin Id="GiwpwQuVNNzPhBZRicbkNa" Name="Value" Kind="OutputPin" />
               <Pin Id="GiCG9jpRAOBM1vsGkbjvIy" Name="Inverse Output" Kind="OutputPin" />
+              <Pin Id="GujFXYiJElnNvwa9MLhqdi" Name="Current Frame" Kind="OutputPin" />
             </Node>
             <Node Bounds="476,637,57,19" Id="HskDrkF0TOjOoQIDk6Q0nq">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
@@ -12743,5 +12749,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="EELipwFJJHnPYXPmbIN17b" Location="VL.IO.Midi" Version="1.0.11" />
+  <NugetDependency Id="EELipwFJJHnPYXPmbIN17b" Location="VL.IO.Midi" Version="1.1.1" />
 </Document>
